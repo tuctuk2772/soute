@@ -1,9 +1,11 @@
-In order to properly run this code, you need to download and install the free DOTween Unity plugin:
+In order to properly run this code, you need to download and install both the free DOTween Unity plugin and the free UniTask Unity Package:
 https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676?srsltid=AfmBOorDPFLSyc4qOreEUL02L2mGmF7Hm6g1LSQk1zfC8oW4xHeWN5i0
+https://github.com/Cysharp/UniTask/releases/tag/2.5.10
 
 If you go to Windows -> Package Management -> Package Manager, you should see a search bar where you can find DOTween under My Assets, download and import that into this project to see the code run most effectively.
+For UniTask, if you just go to Assets -> Import Package -> Custom Package you should be given the option to install UniTask pretty easily.
 
-If you like this project and coding, and you think I have potential at your company, please reach out! My email is tucker.wolfson@gmail.com
+If you like this project and code, and you think I have potential at your company, please reach out! My email is tucker.wolfson@gmail.com
 
 Thanks for your consideration and thanks for taking a look at this!
 	- Tucker
