@@ -14,8 +14,6 @@ public class UniTaskDOTween : MonoBehaviour
 
     private async void Start()
     {
-        //this sequence will function the way it's written out, because of UniTask makes all functions async
-
         await MoveSquare(); //square moves cubeXOffset amount using DOTween
         await MoveSquareAgain(); //cubeXOffset gets multiplied by 2, and square teleports to new cubeXOffset
         await UniTask.Delay(TimeSpan.FromSeconds(1f)); //wait 1 second

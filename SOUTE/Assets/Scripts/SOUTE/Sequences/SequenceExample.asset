@@ -12,36 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e78153128d37a048b91095e05fa4da0, type: 3}
   m_Name: SequenceExample
   m_EditorClassIdentifier: Assembly-CSharp::GameSequence
-  sequenceEvents:
-  - order: 0
-    SOUTE: {fileID: 11400000, guid: 7cef665a46582794ab359f51249e5216, type: 2}
-    duration:
-      useConstant: 1
-      constantValue: 0
-      variable: {fileID: 0}
-    setFloat: 2
-    setFloatReference: {fileID: 11400000, guid: 895a0aee3e4ce3a4ea7be92c836a2098, type: 2}
-  - order: 0
-    SOUTE: {fileID: 11400000, guid: c9677f95b08ee4f489385daa06b29c47, type: 2}
-    duration:
-      useConstant: 1
-      constantValue: 0
-      variable: {fileID: 0}
-    setFloat: 0
-    setFloatReference: {fileID: 0}
-  - order: 2
-    SOUTE: {fileID: 0}
-    duration:
-      useConstant: 1
-      constantValue: 1
-      variable: {fileID: 0}
-    setFloat: 0
-    setFloatReference: {fileID: 0}
-  - order: 0
-    SOUTE: {fileID: 11400000, guid: 7d8bccf8eeea66a4ea92e4ce031d9bd9, type: 2}
-    duration:
-      useConstant: 1
-      constantValue: 0
-      variable: {fileID: 0}
-    setFloat: 0
-    setFloatReference: {fileID: 0}
+  sequenceEvents: []

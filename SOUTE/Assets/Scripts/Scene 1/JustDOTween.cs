@@ -14,9 +14,6 @@ public class JustDOTween : MonoBehaviour
     {
         Sequence start = DOTween.Sequence();
 
-        //this sequence won't work the way it's written out,
-        //  because some of the tasks are synchronous and DOTween is async
-
         start.Append(MoveSquare()); //square moves cubeXOffset amount using DOTween
         start.AppendCallback(() => MoveSquareAgain()); //cubeXOffset gets multiplied by 2, and square teleports to new cubeXOffset
         start.AppendInterval(1f); //wait 1 second

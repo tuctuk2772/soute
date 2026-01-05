@@ -51,8 +51,8 @@ public class SequenceEventDrawer : PropertyDrawer
 
                 yOffset += EditorGUIUtility.singleLineHeight * 2 + EditorGUIUtility.standardVerticalSpacing;
 
-                GameEvent SOUTEReference = (GameEvent)SOUTE.objectReferenceValue;
-                bool setFloatActive = SOUTEReference.setFloat;
+                GameEvent SOUTEReference = (GameEvent)SOUTE?.objectReferenceValue;
+                bool setFloatActive = SOUTEReference == null ? false : SOUTEReference.setFloat;
 
                 if (setFloatActive)
                 {
@@ -113,9 +113,9 @@ public class SequenceEventDrawer : PropertyDrawer
         {
             height += EditorGUIUtility.singleLineHeight + EditorGUIUtility.standardVerticalSpacing;
 
-            SerializedProperty SOUTE = property.FindPropertyRelative("SOUTE");
-            GameEvent SOUTEReference = (GameEvent)SOUTE.objectReferenceValue;
-            bool setFloatActive = SOUTEReference.setFloat;
+            SerializedProperty SOUTE = property?.FindPropertyRelative("SOUTE");
+            GameEvent SOUTEReference = (GameEvent)SOUTE?.objectReferenceValue;
+            bool setFloatActive = SOUTEReference == null ? false : SOUTEReference.setFloat;
 
             if (setFloatActive)
             {
